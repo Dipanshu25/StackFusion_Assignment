@@ -17,7 +17,7 @@ function App() {
   const form = useRef();
   const history = useHistory();
   const handleRoute = (e) => {
-    console.log("jai mata di 1");
+   
     history.push(e);
   };
 
